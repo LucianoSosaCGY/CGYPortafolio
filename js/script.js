@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Arma el mensaje pedido por el cliente
       const mensaje =
         `Hola, soy ${nombre}. Me interesa realizar un proyecto de ${servicio}. ` +
-        `Esto es lo que necesito: ${proyecto}. Mi medio de contacto es: ${contacto}.`;
+        `Esto es lo que necesito: ${proyecto}.`;
 
       const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(mensaje)}`;
       window.open(url, '_blank', 'noopener');
