@@ -112,13 +112,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const nombre = form.nombre.value.trim();
       const servicio = form.servicio.value;
       const proyecto = form.proyecto.value.trim();
-      const contacto = form.contacto.value.trim();
+
 
       // Validación simple de campos obligatorios
       let isValid = true;
       [
         [form.nombre, nombre],
-        [form.proyecto, proyecto],
+        [form.proyecto, proyecto]
       ].forEach(([field, value]) => {
         const empty = value.length === 0;
         setFieldError(field, empty);
