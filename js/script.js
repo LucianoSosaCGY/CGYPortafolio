@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Quita el estado de error apenas el usuario empieza a corregir
-    ['nombre', 'proyecto', 'contacto'].forEach((name) => {
+    ['nombre', 'proyecto',].forEach((name) => {
       form[name].addEventListener('input', () => setFieldError(form[name], false));
     });
   }
