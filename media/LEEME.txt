@@ -1,0 +1,21 @@
+Esta carpeta debe contener los siguientes archivos (el sitio ya los referencia por nombre):
+
+- LogoCgyStudio.jpeg          → logo del estudio (header)
+
+Sección de Camila (demos de páginas web):
+- Pagina web Barber.mov
+- Salon.mov
+- Medicos.mov
+
+Sección de Luciano (reel de edición):
+- BraimInduFinal.mp4
+- CafeteriaFinal.mp4
+- PodcastHookv4.mp4
+
+Simplemente arrastrá estos archivos a esta carpeta "media" (respetando los nombres
+exactos, incluidos espacios y mayúsculas) y el sitio los va a mostrar automáticamente.
+Si el logo no está presente, en el header se muestra "CGY" como reemplazo temporal.
+
+Nota: los .mov tienen buen soporte en Safari, pero no siempre se reproducen en Chrome/
+Firefox en todos los sistemas. Si notás que no se reproducen bien, lo ideal es
+convertir esos 3 videos a .mp4 (mismo nombre, cambiando la extensión en el HTML).

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGY Studio — Desarrollo web y edición de video</title>
+  <link rel="icon" type="image/jpeg" href="media/logoicon.png">
+  <meta name="description" content="CGY Studio: desarrollo web y edición de video profesional. Camila (desarrollo web) y Luciano (edición de video) transforman ideas en experiencias digitales.">
+
+  <!-- Tipografías: Fraunces (display, con carácter) + Manrope (texto) + IBM Plex Mono (utilitaria) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <a href="#inicio" class="brand" aria-label="CGY Pixel Studio — inicio">
+        <img src="media/LogoCgyStudio.jpeg" alt="Logo CGY Pixel Studio" class="brand-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+        <span class="brand-mark" style="display:none;" aria-hidden="true">CGY</span>
+        <span class="brand-name"><em>CGY</em> Studio</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#camila">Web</a>
+        <a href="#luciano">Video</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto" class="nav-cta">Contactanos</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-inner container">
+        <p class="eyebrow"><span class="dot"></span>Estudio digital — web &amp; video</p>
+        <h1 class="hero-title">
+          <span class="reveal-line"><span>Creamos tu</span></span>
+          <span class="reveal-line"><span> presencia digital.</span></span>
+        </h1>
+        <p class="hero-subtitle">
+          Somos CGY Studio: unimos desarrollo web y edición de video para construir
+          una presencia digital que se ve, se siente y funciona como vos la imaginás.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary">Ver nuestros servicios</a>
+          <a href="#contacto" class="btn btn-ghost">Contactarnos</a>
+        </div>
+      </div>
+      <div class="filmstrip" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============ SOBRE CAMILA — DESARROLLO WEB ============ -->
+    <section class="profile-section" id="camila">
+      <div class="container profile-grid">
+
+        <div class="profile-text reveal-up">
+          <p class="eyebrow"><span class="tag-index">01</span>Desarrollo web</p>
+          <h2 class="section-title">Camila</h2>
+          <p class="lead">Desarrolladora web y creadora de CGY Studio.</p>
+          <p>
+            Soy Camila, desarrolladora web y creadora de CGY Studio. Me apasiona
+            transformar ideas en experiencias digitales modernas, profesionales y personalizadas.
+          </p>
+          <p>
+            Me especializo en el desarrollo de páginas web adaptadas a cada negocio, cuidando
+            tanto el diseño como la funcionalidad para lograr sitios rápidos, atractivos y
+            fáciles de usar desde cualquier dispositivo. También creo proyectos digitales
+            personalizados y trabajo junto a profesionales de edición de video para ofrecer
+            soluciones de contenido más completas.
+          </p>
+          <p>
+            Mi objetivo es ayudar a cada cliente a tener una presencia digital que represente
+            realmente su identidad, genere confianza y le permita llegar a más personas.
+          </p>
+          <p class="lead-closing">
+            En CGY Studio, cada proyecto es una oportunidad para convertir una idea en algo único.
+          </p>
+        </div>
+
+        <div class="profile-media reveal-up" style="--delay:120ms">
+          <p class="media-label">Sitios grabados en video</p>
+          <div class="video-stack">
+
+            <figure class="video-card">
+              <div class="video-frame" data-tone="1">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/Pagina%20web%20Barber.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <span class="poster-label">Barbería</span>
+                  <button type="button" class="play-btn" aria-label="Reproducir video: Barbería">
+                    <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <figcaption>
+                <span class="video-title">Barbería</span>
+                <span class="video-file"></span>
+              </figcaption>
+            </figure>
+
+            <figure class="video-card">
+              <div class="video-frame" data-tone="2">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/Salon.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <span class="poster-label">Salón</span>
+                  <button type="button" class="play-btn" aria-label="Reproducir video: Salón">
+                    <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <figcaption>
+                <span class="video-title">Salón</span>
+                <span class="video-file"></span>
+              </figcaption>
+            </figure>
+
+            <figure class="video-card">
+              <div class="video-frame" data-tone="3">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/Medicos.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <span class="poster-label">Equipo Médico</span>
+                  <button type="button" class="play-btn" aria-label="Reproducir video: Médicos">
+                    <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <figcaption>
+                <span class="video-title">Equipo Médico</span>
+                <span class="video-file"></span>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="film-divider" aria-hidden="true"></div>
+
+    <!-- ============ SOBRE LUCIANO — EDICIÓN DE VIDEO ============ -->
+    <section class="profile-section profile-section--alt" id="luciano">
+      <div class="container profile-grid profile-grid--reverse">
+
+        <div class="profile-media reveal-up">
+          <p class="media-label">Reel de trabajos</p>
+          <div class="reel-stack">
+
+            <article class="reel-card">
+              <div class="video-frame video-frame--tall" data-tone="1">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/BraimInduFinal.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <button type="button" class="play-btn" aria-label="Reproducir video: BraimInduFinal">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="reel-info">
+                <span class="video-file">¿Que es mejor?</span>
+                <p>Video institucional editado con foco en ritmo e impacto en los primeros segundos.</p>
+                <span class="chip">Premiere Pro</span>
+              </div>
+            </article>
+
+            <article class="reel-card">
+              <div class="video-frame video-frame--tall" data-tone="2">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/CafeteriaFinal.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <button type="button" class="play-btn" aria-label="Reproducir video: CafeteriaFinal">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="reel-info">
+                <span class="video-file">Publicidad Cafeteria</span>
+                <p>Pieza para redes con motion graphics y corrección de color orientada a marca.</p>
+                <span class="chip">Premiere Pro</span>
+                <span class="chip">After Effects</span>
+              </div>
+            </article>
+
+            <article class="reel-card">
+              <div class="video-frame video-frame--tall" data-tone="3">
+                <video preload="metadata" class="demo-video">
+                  <source src="media/PodcastHookv4.mp4" type="video/mp4">
+                  Tu navegador no puede reproducir este video.
+                </video>
+                <div class="video-poster">
+                  <button type="button" class="play-btn" aria-label="Reproducir video: PodcastHookv4">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="reel-info">
+                <span class="video-file">Hook Para Podcast</span>
+                <p>Hook vertical para podcast, pensado para retener y generar conversión.</p>
+                <span class="chip">Premiere Pro</span>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="software-row" aria-label="Software utilizado">
+            <span class="software-badge">Premiere Pro</span>
+            <span class="software-badge">After Effects</span>
+            <span class="software-badge">CapCut Pro</span>
+          </div>
+        </div>
+
+        <div class="profile-text reveal-up" style="--delay:120ms">
+          <p class="eyebrow"><span class="tag-index">02</span>Edición de video</p>
+          <h2 class="section-title">Luciano</h2>
+          <p class="lead">Editor de video freelance, contenido para redes que vende.</p>
+          <p>
+            Soy Luciano, editor de video freelance enfocado en contenido para redes sociales
+            diseñado para maximizar ventas y captar clientes. Me apasiona transformar ideas e
+            imágenes en piezas audiovisuales modernas, dinámicas y orientadas a resultados.
+          </p>
+          <p>
+            Me especializo en la edición de videos para plataformas de formato vertical y
+            horizontal (Reels, TikTok, YouTube y anuncios publicitarios), cuidando el ritmo,
+            la narrativa visual y el impacto en los primeros segundos para generar retención
+            y conversión. Trabajo con un enfoque estratégico para que cada video refleje la
+            identidad de la marca, transmita profesionalismo y conecte directamente con la
+            audiencia objetivo.
+          </p>
+          <p class="lead-closing">
+            Mi objetivo es ayudar a negocios, marcas y profesionales a fortalecer su presencia
+            digital con videos de alto valor que generen confianza, destaquen frente a la
+            competencia y potencien sus ventas.
+          </p>
+
+          <div class="profile-contact">
+            <a href="https://www.instagram.com/zvbn.zv/" target="_blank" rel="noopener" class="social-link">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2c2.7 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.9 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.07.06 1.42.06 4.13s-.01 3.06-.06 4.13c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.42.06-4.12.06s-3.06-.01-4.13-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.13c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.44.53C6.08.28 6.81.11 7.87.06 8.94.01 9.3 0 12 0zm0 5.4A6.6 6.6 0 1 0 12 18.6 6.6 6.6 0 0 0 12 5.4zm0 10.9a4.3 4.3 0 1 1 0-8.6 4.3 4.3 0 0 1 0 8.6zm7.6-11.15a1.54 1.54 0 1 1-3.08 0 1.54 1.54 0 0 1 3.08 0z"/></svg>
+              @zvbn.zv
+            </a>
+            <a href="https://wa.me/5493704582390" target="_blank" rel="noopener" class="social-link">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.7 0 .6 5.1.6 11.4c0 2 .5 4 1.5 5.7L0 24l7.1-1.9c1.6.9 3.4 1.3 5.3 1.3 6.3 0 11.4-5.1 11.4-11.4 0-3-1.2-5.9-3.3-8zm-8.5 17.5c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-4.2 1.1 1.1-4.1-.2-.4a9.4 9.4 0 0 1-1.4-4.9c0-5.2 4.2-9.4 9.4-9.4a9.4 9.4 0 0 1 9.4 9.4c0 5.2-4.3 9.8-9 9.8zm5.1-7c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+              +54 9 3704 58-2390
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="film-divider" aria-hidden="true"></div>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="services-section" id="servicios">
+      <div class="container">
+        <p class="eyebrow eyebrow--center"><span class="dot"></span>Lo que hacemos</p>
+        <h2 class="section-title section-title--center">Servicios</h2>
+
+        <div class="services-grid">
+
+          <article class="service-card reveal-up">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M3 4h18v14H3zM3 18h18M9 21h6M9 8l-3 3 3 3M15 8l3 3-3 3"/></svg>
+            </span>
+            <h3>Desarrollo de páginas web</h3>
+            <p>Sitios rápidos, prolijos y funcionales, construidos a medida de cada negocio.</p>
+          </article>
+
+          <article class="service-card reveal-up" style="--delay:60ms">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M4 19V5a1 1 0 0 1 1-1h9l6 6v9a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM14 4v6h6"/></svg>
+            </span>
+            <h3>Diseño web personalizado</h3>
+            <p>Identidad visual propia para tu marca: nada de plantillas genéricas.</p>
+          </article>
+
+          <article class="service-card reveal-up" style="--delay:120ms">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M4 6h11a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM16 10l5-3v10l-5-3"/></svg>
+            </span>
+            <h3>Edición de video</h3>
+            <p>Ritmo, narrativa visual e impacto desde el primer segundo para Reels, TikTok y YouTube.</p>
+          </article>
+
+          <article class="service-card reveal-up" style="--delay:180ms">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M17 2.1l4 4-4 4M21 6.1H8a5 5 0 0 0-5 5v1M7 21.9l-4-4 4-4M3 17.9h13a5 5 0 0 0 5-5v-1"/></svg>
+            </span>
+            <h3>Contenido para redes sociales</h3>
+            <p>Piezas audiovisuales pensadas para generar retención, confianza y ventas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact-section" id="contacto">
+      <div class="container contact-grid">
+
+        <div class="contact-intro reveal-up">
+          <p class="eyebrow"><span class="dot"></span>Empecemos</p>
+          <h2 class="section-title">Contanos tu proyecto</h2>
+          <p>
+            Completá el formulario y te vamos a responder por WhatsApp con toda la información
+            que nos dejes acá.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://www.instagram.com/cgy.sstudio/" target="_blank" rel="noopener" class="social-link">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2c2.7 0 3.05.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.21.6 1.76 1.15.55.55.9 1.1 1.15 1.76.25.64.42 1.37.47 2.43.05 1.07.06 1.42.06 4.13s-.01 3.06-.06 4.13c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.76 4.9 4.9 0 0 1-1.76 1.15c-.64.25-1.37.42-2.43.47-1.07.05-1.42.06-4.12.06s-3.06-.01-4.13-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.76-1.15 4.9 4.9 0 0 1-1.15-1.76c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.13c.05-1.06.22-1.79.47-2.43.26-.66.6-1.21 1.15-1.76A4.9 4.9 0 0 1 5.44.53C6.08.28 6.81.11 7.87.06 8.94.01 9.3 0 12 0zm0 5.4A6.6 6.6 0 1 0 12 18.6 6.6 6.6 0 0 0 12 5.4zm0 10.9a4.3 4.3 0 1 1 0-8.6 4.3 4.3 0 0 1 0 8.6zm7.6-11.15a1.54 1.54 0 1 1-3.08 0 1.54 1.54 0 0 1 3.08 0z"/></svg>
+              @cgy.sstudio
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-up" id="contactForm" style="--delay:120ms" novalidate>
+          <div class="form-field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            <span class="field-error" data-error-for="nombre">Contanos cómo te llamás.</span>
+          </div>
+
+          <div class="form-field">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option value="Diseño web personalizado">Diseño web personalizado</option>
+              <option value="Edición de video">Edición de video</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="proyecto">¿Qué necesitás? Contanos tu proyecto</label>
+            <textarea id="proyecto" name="proyecto" rows="4" required></textarea>
+            <span class="field-error" data-error-for="proyecto">Contanos brevemente qué necesitás.</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar consulta por WhatsApp
+          </button>
+          <p class="form-note">Al enviar, se abre WhatsApp con tu consulta ya redactada.</p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="brand-name brand-name--footer"><em>CGY </em> Studio</span>
+      
+      <p class="footer-copy">© <span id="year"></span> CGY Studio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
